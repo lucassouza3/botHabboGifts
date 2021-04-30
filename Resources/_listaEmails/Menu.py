@@ -61,9 +61,10 @@ def menu():
                 senha.append(Arquivo[0][j])
                 j += 2
             arquivo.close()
-            i = 0
-            j = 0
-            login(email[i], senha[j])
+            # Mudar email
+
+            login(email, senha)
+
             break
 
         elif menu == '4':
